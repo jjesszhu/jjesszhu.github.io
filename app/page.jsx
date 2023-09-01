@@ -29,7 +29,7 @@ export default function Home() {
       <Splash font={freight}/>
       <About font={freight}/>
       <FilmDiary font={freight} filmList={filmList}/>
-      <Footer />
+      <Footer font={freight}/>
     </>
   );
 }

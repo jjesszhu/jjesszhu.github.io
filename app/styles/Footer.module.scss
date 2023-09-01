@@ -1,43 +1,54 @@
 .footerContainer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 48px 36px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 48px;
   background-color: #2C3B04;
 }
 
 .callout {
-  color: #F27EB1;
-  font-size: 24px;
-  letter-spacing: 0.1ch;
-}
-
-.iconContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.icon {
   color: #FBF8EF;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.3ch;
 }
 
-.icon:hover {
-  color: #F27EB1;
-}
+.link {
+  color: #FBF8EF;
 
-.icon:not(:first-child) {
-  margin-left: 32px;
+  &:hover {
+    color: #F27EB1;
+  }
 }
 
 .creditSubheading {
-  font-family: Passions Conflict, cursive;
   color: #FBF8EF;
-  font-size: 24px;
+  font-size: 16px;
 }
 
-.movieTitle {
-  font-family: 'Futura', 'Trebuchet MS', 'Arial', sans-serif;
+.tenenbaums {
+  font-family: 'Futura', 'Jost', 'Trebuchet MS', 'Arial', sans-serif;
   font-size: 14px;
   color: #F27EB1;
+}
+
+.phantomThread {
+  font-family: 'Passions Conflict', cursive;
+  font-size: 20px
+}
+
+.copyright {
+  font-family: 'Passions Conflict', cursive;
+  margin-top: 16px;
+  color: #FBF8EF;
+}
+
+/* BREAKPOINTS */
+// mobile
+@media only screen and (max-width: 600px) {
+  .footerContainer {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
