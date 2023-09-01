@@ -10,7 +10,7 @@ import Splash from "./components/Splash";
 import FilmDiary from "./components/FilmDiary";
 import letterboxd from "./data/letterboxd";
 
-export const freight = localFont({
+const freight = localFont({
   src: "fonts/Freight.otf",
 })
 
