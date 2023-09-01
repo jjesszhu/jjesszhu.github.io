@@ -3,8 +3,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #233105;
-  color: #F27EB1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/phantomThread.jpeg");
+  color: #FBF8EF;
   height: 92vh;
   width: 100%;
 }
@@ -25,10 +27,10 @@
 .splashLink {
   font-family: Passions Conflict, cursive;
   font-size: 48px;
-  color: #FBF8EF;
+  color: #FFFFFF;
 
   &:visited {
-    color: #F27EB1;
+    color: #FFFFFF;
   }
 }
 

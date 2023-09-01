@@ -8,9 +8,18 @@ const Footer = () => {
       <div className={styles.iconContainer}>
         
       </div>
-      <p className={styles.creditSubheading}>
+      <p className={`${styles.creditSubheading} text-center`}>
         designed + developed with inspiration from wes anderson's
-        <span className={styles.movieTitle}> THE ROYAL TENENBAUMS</span>
+        <span className={styles.movieTitle}>
+          <br/>
+          <strong>THE ROYAL TENENBAUMS</strong>
+        </span>
+        <br/>
+        with splash from paul thomas anderson's
+        <span className={styles.movieTitle}>
+          <br/>
+          Phantom Thread
+        </span>
         <br /> © jessica zhu, 2023
       </p>
     </footer>

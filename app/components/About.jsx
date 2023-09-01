@@ -3,10 +3,10 @@ import styles from "../styles/About.module.scss";
 
 const About = () => {
   return (
-    <section id="about" className={styles.aboutSection}>
-      <h3 className={styles.aboutHeader}>about me</h3>
-      <div className={styles.aboutContentContainer}>
-        <p className={styles.aboutContent}>
+    <section id="about" className={`${styles.aboutSection} mt-4 mb-5 py-5`}>
+      <h3 className={`${styles.aboutHeader}`}>about me</h3>
+      <div className="d-flex justify-content-center col-10">
+        <p className={`${styles.aboutContent} col-lg-10 col-md-6 col-sm-12 col-9 text-start mt-4`}>
           Hello! I'm Jessica (she/her), and I'm a second year SYDE student @{" "}
           <a
             className={styles.aboutLink}

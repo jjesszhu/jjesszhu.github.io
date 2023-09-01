@@ -17,6 +17,7 @@
 .burger {
   color:#B98404;
   display: none;
+  font-size: 30px;
 
   &:hover {
     cursor: pointer;
@@ -41,6 +42,7 @@
   .navLinkContainer {
     width: 100%;
     flex-direction: column;
+    height: auto;
   }
 
   .burger {

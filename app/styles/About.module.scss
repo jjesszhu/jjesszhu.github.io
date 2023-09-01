@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
 }
 
 .aboutHeader {
@@ -11,33 +10,21 @@
   font-size: 70px;
   text-decoration: underline;
   color: #B98404;
-  margin: 0;
 }
 
 .aboutContentContainer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 60%;
-  margin-top: 36px;
-}
-
-.aboutImg {
-  width: 325px;
-  height: 325px;
-  object-fit: cover;
-  filter: unset;
-  border-radius: 7px;
 }
 
 .aboutContent {
   text-align: start;
-  color: #4A5B26;
+  color: #2C3B04;
   font-weight: 400;
   font-size: 24px;
   letter-spacing: 0.1ch;
   line-height: 35px;
-  margin: 0 0 0 92px;
 }
 
 .aboutLink {
