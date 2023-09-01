@@ -1,0 +1,20 @@
+[
+    {
+        "company": "FORD PRO",
+        "position": "swe (front-end) intern",
+        "term": "fall 2022",
+        "skills": ["javascript", "react", "css", "typescript", "sass", "jest", "git", "rally", "tekton/gcp"]
+    },
+    {
+        "company": "OPEN TEXT",
+        "position": "android developer intern",
+        "term": "winter 2022",
+        "skills": ["android studio", "java", "kotlin", "git", "postman", "jira", "firebase crashlytics", "play console", "sqlite"]
+    },
+    {
+        "company": "STAT TRAK",
+        "position": "project, co-creator",
+        "term": "december 2019",
+        "skills": ["android studio", "java", "kotlin"]
+    }
+]

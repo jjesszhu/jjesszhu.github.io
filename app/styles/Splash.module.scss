@@ -1,0 +1,50 @@
+.splashBackground {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #233105;
+  color: #F27EB1;
+  height: 92vh;
+  width: 100%;
+}
+
+.splashBigText {
+  margin: 0;
+  font-size: 80px;
+  letter-spacing: 0.1ch;
+  font-weight: bold;
+}
+
+.splashSmText {
+  margin: 0 0 22px;
+  font-size: 24px;
+  letter-spacing: 0.1ch;
+}
+
+.splashLink {
+  font-family: Passions Conflict, cursive;
+  font-size: 48px;
+  color: #FBF8EF;
+
+  &:visited {
+    color: #F27EB1;
+  }
+}
+
+/* BREAKPOINTS */
+/* mobile */
+@media only screen and (max-width: 600px) {
+  .splashSmText {
+    font-size: 18px;
+  }
+  .splashBigText {
+    font-size: 60px;
+  }
+  .splashLink {
+    font-size: 36px;
+  }
+  .splashBackground {
+    height: 400px;
+  }
+}

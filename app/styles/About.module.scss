@@ -1,0 +1,76 @@
+.aboutSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.aboutHeader {
+  font-family: Passions Conflict, cursive;
+  font-weight: 400;
+  font-size: 70px;
+  text-decoration: underline;
+  color: #B98404;
+  margin: 0;
+}
+
+.aboutContentContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 60%;
+  margin-top: 36px;
+}
+
+.aboutImg {
+  width: 325px;
+  height: 325px;
+  object-fit: cover;
+  filter: unset;
+  border-radius: 7px;
+}
+
+.aboutContent {
+  text-align: start;
+  color: #4A5B26;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.1ch;
+  line-height: 35px;
+  margin: 0 0 0 92px;
+}
+
+.aboutLink {
+  color: #F27EB1;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.aboutLink {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+ 
+/* BREAKPOINTS */
+/* tablet */
+@media only screen and (max-width: 1200px) {
+  .aboutContentContainer {
+    width: 80%;
+  }
+
+  .aboutImg {
+    width: 100%;
+  }
+
+  .aboutContent {
+    width: 100%;
+    margin: 32px 0 0;
+    font-size: 18px;
+  }
+
+  .aboutContentContainer {
+    flex-direction: column;
+    margin-top: 32px;
+  }
+}
