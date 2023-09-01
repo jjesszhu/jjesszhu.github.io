@@ -16,7 +16,7 @@ const About = ({font}) => {
           >
             uWaterloo
           </a>{" "}
-          on my way through 2B <strong>(and seeking winter 2023 jobs!)</strong>.
+          on my way through 2B <strong>(and seeking winter 2024 opportunities!)</strong>.
           <br />
           <br />
           I’ve previously worked at{" "}
