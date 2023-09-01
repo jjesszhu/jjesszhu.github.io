@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Next.js on GitHub Pages',
-  description: 'A Next.js web application on GitHub Pages',
+  title: 'JESSICA ZHU',
+  description: 'a website about Jessica Zhu',
 }
 
 export default function RootLayout({
@@ -15,6 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <link rel="icon" href="/favicon.ico" sizes="any" />
       <body className={inter.className}>{children}</body>
     </html>
   )
