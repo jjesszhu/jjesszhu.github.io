@@ -2,14 +2,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #FBF8EF;
+  padding: 48px 0;
 }
 
 .aboutHeader {
-  font-family: Passions Conflict, cursive;
-  font-weight: 400;
-  font-size: 70px;
-  text-decoration: underline;
+  font-weight: bold;
+  font-size: 24px;
   color: #B98404;
+  letter-spacing: 0.3ch;
 }
 
 .aboutContentContainer {
@@ -53,7 +54,7 @@
   .aboutContent {
     width: 100%;
     margin: 32px 0 0;
-    font-size: 18px;
+    font-size: 24px;
   }
 
   .aboutContentContainer {

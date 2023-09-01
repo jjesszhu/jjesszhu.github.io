@@ -16,6 +16,7 @@
   font-size: 80px;
   letter-spacing: 0.1ch;
   font-weight: bold;
+  text-align: center;
 }
 
 .splashSmText {
@@ -25,8 +26,7 @@
 }
 
 .splashLink {
-  font-family: Passions Conflict, cursive;
-  font-size: 48px;
+  font-size: 24px;
   color: #FFFFFF;
 
   &:visited {
@@ -44,7 +44,7 @@
     font-size: 60px;
   }
   .splashLink {
-    font-size: 36px;
+    font-size: 18px;
   }
   .splashBackground {
     height: 400px;

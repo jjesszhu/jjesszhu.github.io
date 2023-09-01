@@ -1,0 +1,42 @@
+.filmsSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FBF8EF;
+  padding: 48px 0;
+}
+
+.filmsHeader {
+  font-weight: bold;
+  font-size: 24px;
+  color: #B98404;
+  letter-spacing: 0.3ch;
+  text-align: center;
+}
+
+.filmTitle {
+  font-weight: bold;
+  font-size: 14px;
+  color: #2C3B04;
+  letter-spacing: 0.3ch;
+  overflow-wrap: break-word;
+}
+
+.filmDate {
+  color: #B98404;
+  font-style: italic;
+}
+
+.link {
+  color: #F27EB1;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* BREAKPOINTS */
+/* mobile */
+@media only screen and (max-width: 600px) {
+  .filmTitle {
+    font-size: 12px;
+  }
+}

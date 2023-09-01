@@ -1,13 +1,13 @@
 import React from "react";
 import styles from "../styles/About.module.scss";
 
-const About = () => {
+const About = ({font}) => {
   return (
-    <section id="about" className={`${styles.aboutSection} mt-4 mb-5 py-5`}>
-      <h3 className={`${styles.aboutHeader}`}>about me</h3>
+    <section id="about" className={`${styles.aboutSection}`}>
+      <h3 className={`${styles.aboutHeader}`}>ABOUT ME</h3>
       <div className="d-flex justify-content-center col-10">
-        <p className={`${styles.aboutContent} col-lg-10 col-md-6 col-sm-12 col-9 text-start mt-4`}>
-          Hello! I'm Jessica (she/her), and I'm a second year SYDE student @{" "}
+        <p className={`${styles.aboutContent} ${font.className} col-lg-10 col-md-9 col-sm-12 col-9 text-start mt-4`}>
+          Hello! I’m Jessica (she/her), and I’m a second year SYDE student @{" "}
           <a
             className={styles.aboutLink}
             href="https://uwaterloo.ca/systems-design-engineering/"
@@ -19,7 +19,7 @@ const About = () => {
           on my way through 2B <strong>(and seeking winter 2023 jobs!)</strong>.
           <br />
           <br />
-          I've previously worked at{" "}
+          I’ve previously worked at{" "}
           <a
             className={styles.aboutLink}
             href="https://fordpro.com/en-us/"
@@ -47,10 +47,10 @@ const About = () => {
           >
             Junip
           </a>{", "}
-          where I dabbled in full-stack dev, building a reviews platform. 
+          where I’ve been dabbling in full-stack dev, building a reviews platform. 
           <br />
           <br />
-          When I'm not (reluctantly) embracing the UW grind, I'm watching
+          When I’m not (reluctantly) embracing the UW grind, I’m probably watching
           basketball, knitting, baking or going to the movies.
         </p>
       </div>
