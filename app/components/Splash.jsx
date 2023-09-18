@@ -8,7 +8,7 @@ const Splash = ({font}) => {
       <h1 className={styles.splashBigText}>JESSICA ZHU</h1>
       <a
         className={styles.splashLink}
-        href="https://drive.google.com/file/d/1x2qeyHDqiv5jb-FCwQbzmhLhNz5uBniM/view?usp=sharing"
+        href="https://drive.google.com/file/d/12voMgBCQU1D6Ql8ZAzkKjw-Q6wvBjwJm/view?usp=sharing"
         rel="noreferrer"
         target="_blank"
       >
