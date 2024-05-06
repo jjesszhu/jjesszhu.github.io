@@ -28,7 +28,6 @@ export default function Home() {
       <NavBar font={freight}/>
       <Splash font={freight}/>
       <About font={freight}/>
-      <FilmDiary font={freight} filmList={filmList}/>
       <Footer font={freight}/>
     </>
   );
