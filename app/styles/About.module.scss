@@ -5,8 +5,9 @@
   align-items: center;
   background-size: cover;
   background-color: #FBF8EF;
-  height: 100vh;
   width: 100%;
+  height: auto;
+  padding: 64px 0;
 }
 
 .aboutHeader {
@@ -55,11 +56,6 @@
 /* BREAKPOINTS */
 /* tablet */
 @media only screen and (max-width: 1200px) {
-  .aboutSection {
-    height: auto;
-    padding: 48px 0;
-  }
-
   .aboutContentContainer {
     width: 80%;
   }
