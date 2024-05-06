@@ -6,19 +6,13 @@ const Footer = ({font}) => {
     <footer className={styles.footerContainer}>
       <div>
         <p className={`${styles.creditSubheading} text-sm-start text-center ${font.className}`}>
-          <u>inspired by:</u>
+          theme inspired by
           <br/>
           wes anderson’s{" "}
           <span className={styles.tenenbaums}>
             <strong>THE ROYAL TENENBAUMS</strong>
           </span>
           {" "}(Buena Vista Pictures, 2001)
-          <br/>
-          paul thomas anderson’s{" "}
-          <span className={styles.phantomThread}>
-            Phantom Thread
-          </span>
-          {" "}(Universal Pictures, 2017)
           <br />
         </p>
       </div>
@@ -41,6 +35,12 @@ const Footer = ({font}) => {
           rel="noreferrer"
           target="_blank"
         >github</a>
+        <a
+          className={styles.link}
+          href="https://letterboxd.com/jesszhu"
+          rel="noreferrer"
+          target="_blank"
+        >letterboxd</a>
         <p className={styles.copyright}>© jessica zhu, 2023</p>
       </div>
     </footer>

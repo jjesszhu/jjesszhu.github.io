@@ -1,9 +1,12 @@
 .aboutSection {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  background-size: cover;
   background-color: #FBF8EF;
-  padding: 48px 0;
+  height: 100vh;
+  width: 100%;
 }
 
 .aboutHeader {
@@ -17,6 +20,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 60px 0;
 }
 
 .aboutContent {
@@ -39,10 +43,23 @@
     text-decoration: underline;
   }
 }
+
+.recentHeader {
+  font-weight: bold;
+  font-size: 24px;
+  color: #B98404;
+  letter-spacing: 0.3ch;
+  margin-top: 64px;
+}
  
 /* BREAKPOINTS */
 /* tablet */
 @media only screen and (max-width: 1200px) {
+  .aboutSection {
+    height: auto;
+    padding: 48px 0;
+  }
+
   .aboutContentContainer {
     width: 80%;
   }
