@@ -15,13 +15,13 @@ const freight = localFont({
 })
 
 export default function Home() {
-  const [filmList, setFilmList] = useState([]);
+  // const [filmList, setFilmList] = useState([]);
 
-  useEffect(() => {
-    letterboxd("jesszhu")
-      .then((items) => setFilmList(items.slice(0, 4)))
-      .catch(() => setFilmList(null));
-  }, []);
+  // useEffect(() => {
+  //   letterboxd("jesszhu")
+  //     .then((items) => setFilmList(items.slice(0, 4)))
+  //     .catch(() => setFilmList(null));
+  // }, []);
 
   return (
     <>
