@@ -52,7 +52,26 @@
   letter-spacing: 0.3ch;
   margin-top: 64px;
 }
- 
+
+.recentImage {
+  &:hover {
+    cursor: crosshair;
+    rotate: 10deg;
+  }
+}
+
+.smText {
+  color: #2C3B04;
+
+  a {
+    color: #2C3B04;
+
+    &:hover {
+      color: #F27EB1;
+    }
+  }
+}
+
 /* BREAKPOINTS */
 /* tablet */
 @media only screen and (max-width: 1200px) {
@@ -73,5 +92,11 @@
   .aboutContentContainer {
     flex-direction: column;
     margin-top: 32px;
+  }
+
+  .recentImage {
+    &:hover {
+      rotate: 0deg;
+    }
   }
 }
