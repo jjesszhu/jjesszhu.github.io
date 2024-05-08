@@ -65,25 +65,25 @@ const About = ({font}) => {
       <h3 className={`${styles.recentHeader}`}>RECENTLY...</h3>
       <div className="row d-flex justify-content-center col-10 gx-5 gy-4 py-5">
         <img
-          src="/galette.jpg"
+          src="/galette.jpeg"
           alt="pear galette <3"
           className={`col-lg-2 col-md-5 ${styles.recentImage}`}
           loading="lazy"
         />
         <img
-          src="/knit.jpg"
+          src="/knit.jpeg"
           alt="scenes from my most recent knitting project"
           className={`col-lg-2 col-md-5 ${styles.recentImage}`}
           loading="lazy"
         />
         <img
-          src="/snoop.jpg"
+          src="/snoop.jpeg"
           alt="puffer snoopy tapestry!"
           className={`col-lg-2 col-md-5 ${styles.recentImage}`}
           loading="lazy"
         />
         <img
-          src="/tiff.jpg"
+          src="/tiff.jpeg"
           alt="views from tiff 2023"
           className={`col-lg-2 col-md-5 ${styles.recentImage}`}
           loading="lazy"
